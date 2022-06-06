@@ -1,0 +1,94 @@
+*{
+margin:0 ;
+padding: 0;
+box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+header{
+    background-color: pink;
+    padding: 20px 0;
+  
+}
+
+.logo{
+    width: 50%;
+}
+   
+.menu{
+    padding-top: 15px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+section.sobre{
+    position: relative;
+    height: calc(100% - 20px);
+}
+    
+.extras{
+    position: absolute;
+    bottom: -350px;
+    right: -350px;
+    width: 900px;
+    height: 900px;
+    border-radius: 50%;
+    background-color: pink;
+}
+
+.comunicacoes{
+    position: absolute;
+    right: 360px;
+    top: 40px;
+}
+
+.comunicacoes img{
+    display: block;
+margin: 15px 0;
+}
+
+.sobre-texto{
+    margin-top: 50px;
+}
+
+.sobre-texto h1{
+    font-size: 40px;
+}
+
+.sobre-texto p{
+    margin: 20px 0;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 500px;
+}
+
+.sobre-texto button{
+    bottom: 0;
+    background-color: pink;
+    color: white;
+    border-radius: 18px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
